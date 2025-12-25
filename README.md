@@ -144,13 +144,6 @@ Below is a curated, attractive gallery of GIFs, 3D loops, anime-style assets and
 
 ---
 
-Credits: GIFs and image assets hotlinked above are taken from public GitHub collections and CC0/open galleries curated in Anmol-Baranwal/Cool-GIFs-For-GitHub and mdazfar2/Cool-GIFs-For-GitHub. Full source repos:
-
-- https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub
-- https://github.com/mdazfar2/Cool-GIFs-For-GitHub
-
----
-
 ## 💡 Quick Start (Local)
 
 1. Clone repo:
@@ -171,13 +164,3 @@ python3 -m http.server 8000
 npx http-server -p 8000
 ```
 
----
-
-## ⚠️ Notes & Licensing
-
-- Many GIFs are hotlinked from public repositories and assets. I recommend bundling the ones you want locally in `assets/` or at repo root (e.g. `demo.gif`) to avoid broken external links.
-- If you want, I can download and optimize the chosen GIFs and commit them into `assets/gifs/` so the README loads reliably. Reply "Download & add GIFs" and I will fetch, optimize, and commit the selected set to `assets/gifs/` and update README to reference them locally.
-
----
-
-_Updated on: 2025-12-25 by @copilot (README gallery & customization)_
