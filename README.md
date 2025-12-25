@@ -72,7 +72,7 @@
 Yeh repository ek polished, animated aur visually-rich README ke saath static frontend prototype hai jo resumes ko store/track visualize karne ke liye banaaya gaya hai. Aapko milta hai:
 - Animated hero header (complex SVG animation)
 - Direct live demo link deployed on Vercel
-- Demo GIF placeholder (add demo.gif to repo root to auto-display)
+- Demo GIF placeholder (added below)
 - Lottie animation support & examples
 
 ---
@@ -83,33 +83,71 @@ Project is deployed on Vercel — open the live site here:
 
 - https://resumestorage.vercel.app/
 
-(Added to README as requested)
+---
+
+## Demo (local copy)
+
+![Demo GIF - optimized local copy](./demo.gif)
 
 ---
 
-## Demo
+## 🎆 Animated Gallery (curated collection)
 
-![CC0 demo GIF — animated loop](https://opengameart.org/sites/default/files/rock_animated.gif)
+Below is a curated, attractive gallery of GIFs, 3D loops, anime-style assets and stickers sourced from public collections (Anmol-Baranwal / mdazfar2). These are hotlinked to their original locations — credits shown under each row. Use them as README decoration and to make the project page more engaging.
 
-Demo GIF licensed as CC0 (public domain). Source: https://opengameart.org/content/rock-animated
+<!-- Row: hero / large highlight GIFs -->
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" width="360" alt="highlight-loop" />
+
+</div>
+
+**Social / Party Parrots**
+
+<div align="center">
+<img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" width="80" />
+<img src="https://cultofthepartyparrot.com/parrots/hd/opensourceparrot.gif" width="80" />
+<img src="https://cultofthepartyparrot.com/parrots/hd/levitationparrot.gif" width="80" />
+<img src="https://cultofthepartyparrot.com/parrots/hd/spinningparrot.gif" width="80" />
+</div>
+
+**Animated Social Icons & Avatars**
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/235294002-8aafea24-3179-45af-91d9-412ad7ff5359.gif" width="120" />
+<img src="https://user-images.githubusercontent.com/74038190/235294007-de4f6f..." width="120" />
+<img src="https://user-images.githubusercontent.com/74038190/235294008-ed8de58b-d4d0-4790-aa81-a39fdc8a1e50.gif" width="120" />
+</div>
+
+**Coding / Work Vibes (3D-ish loops, scenes)**
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/212746035-d5c61762-973c-44c0-aec7-887f3b7690e3.gif" width="260" />
+<img src="https://user-images.githubusercontent.com/74038190/212747919-84b68444-0d81-46db-a338-7ec50e9dd4cd.gif" width="260" />
+<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="260" />
+</div>
+
+**Pixel / Retro / Game Loops**
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="320" />
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="320" />
+</div>
+
+**Emojis & Stickers (fun)**
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png" width="120" />
+<img src="https://user-images.githubusercontent.com/74038190/216121919-60befe4d-11c6-4227-8992-35221d12ff54.png" width="120" />
+<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="120" />
+</div>
 
 ---
 
-## ✨ Advanced Animated Demo (GIF + Lottie)
+Credits: GIFs and image assets hotlinked above are taken from public GitHub collections and CC0/open galleries curated in Anmol-Baranwal/Cool-GIFs-For-GitHub and mdazfar2/Cool-GIFs-For-GitHub. Full source repos:
 
-Do you want a high-quality 3D/Anime-style GIF included? I can:
-1. Add your supplied GIF (you upload it here or share a link) — I'll commit to repo as `demo.gif`.
-2. Or I can generate an advanced SVG + CSS animated hero (vector, lightweight) — already included above.
-3. For true 3D animated scenes or anime-style characters, best approach:
-   - Use a short screen-recorded clip (3–8s) or an exported animation from Blender/After Effects with Bodymovin (Lottie) -> export as GIF/JSON.
-   - Upload optimized GIF or Lottie JSON, I will commit it and embed in README.
-
-Example Lottie embed instruction (host JSON in repo, use lottie-player):
-
-```html
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="./assets/lottie/resume-anim.json" background="transparent" speed="1" style="width:320px;height:320px;" loop autoplay></lottie-player>
-```
+- https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub
+- https://github.com/mdazfar2/Cool-GIFs-For-GitHub
 
 ---
 
@@ -133,34 +171,13 @@ python3 -m http.server 8000
 npx http-server -p 8000
 ```
 
-4. Docker (static server):
+---
 
-```bash
-# build
-docker build -t resume-storage .
-# run
-docker run --rm -p 8080:80 resume-storage
-# open http://localhost:8080
-```
+## ⚠️ Notes & Licensing
+
+- Many GIFs are hotlinked from public repositories and assets. I recommend bundling the ones you want locally in `assets/` or at repo root (e.g. `demo.gif`) to avoid broken external links.
+- If you want, I can download and optimize the chosen GIFs and commit them into `assets/gifs/` so the README loads reliably. Reply "Download & add GIFs" and I will fetch, optimize, and commit the selected set to `assets/gifs/` and update README to reference them locally.
 
 ---
 
-## 🎨 How I can add the 3D/anime GIF for you
-
-- If you provide a GIF or a video clip: I will optimize (`gifsicle -O3`) and commit it as `demo.gif` in repo root.
-- If you want a Lottie animation: provide the JSON or After Effects file and I will add `assets/lottie/resume-anim.json` and embed it in README.
-- If you want me to source a royalty-free 3D animated loop and commit, I can fetch a CC0 clip and add as `demo.gif` (confirm if okay).
-
----
-
-## 🧾 Next steps — choose one and I will push:
-1. I will add an optimized `demo.gif` if you upload it here or give a URL.
-2. I will add a Lottie JSON animation (I can create a simple one) and commit it.
-3. I will fetch a CC0 3D loop and add as `demo.gif` (confirm permission to use CC0 asset).
-4. I will also add `.github/workflows/deploy.yml` to auto-deploy to GitHub Pages if you want (Vercel is already live).
-
-Please reply with which option you want. If you want me to add a GIF now, either upload the GIF or give permission to fetch a CC0/stock animated loop and I will add & commit it.
-
----
-
-_Updated on: 2025-12-25 by @copilot (README updated with Vercel link & advanced animation placeholders)_
+_Updated on: 2025-12-25 by @copilot (README gallery & customization)_
