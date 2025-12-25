@@ -1,4 +1,4 @@
-# ✨ Resume Storage & Tracking System — Hyper-Advanced Animated README
+# ✨ Resume Storage & Tracking System — README
 
 <!-- Hero SVG animation (renders on GitHub README) -->
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="220" viewBox="0 0 1200 220" preserveAspectRatio="xMidYMid meet">
