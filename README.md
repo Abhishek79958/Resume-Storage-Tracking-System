@@ -87,6 +87,14 @@ Project is deployed on Vercel — open the live site here:
 
 ---
 
+## Demo
+
+![CC0 demo GIF — animated loop](https://opengameart.org/sites/default/files/rock_animated.gif)
+
+Demo GIF licensed as CC0 (public domain). Source: https://opengameart.org/content/rock-animated
+
+---
+
 ## ✨ Advanced Animated Demo (GIF + Lottie)
 
 Do you want a high-quality 3D/Anime-style GIF included? I can:
@@ -141,7 +149,7 @@ docker run --rm -p 8080:80 resume-storage
 
 - If you provide a GIF or a video clip: I will optimize (`gifsicle -O3`) and commit it as `demo.gif` in repo root.
 - If you want a Lottie animation: provide the JSON or After Effects file and I will add `assets/lottie/resume-anim.json` and embed it in README.
-- If you want me to source a royalty-free 3D animated loop and commit, I can fetch a CC0 clip and add (confirm if okay).
+- If you want me to source a royalty-free 3D animated loop and commit, I can fetch a CC0 clip and add as `demo.gif` (confirm if okay).
 
 ---
 
